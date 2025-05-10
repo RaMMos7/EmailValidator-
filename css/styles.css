@@ -1,0 +1,70 @@
+/* Estilo base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3e8ff;
+    color: #4b0082;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container centralizado */
+  .container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(75, 0, 130, 0.3);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Títulos */
+  h1 {
+    color: #6a0dad;
+    margin-bottom: 20px;
+  }
+  
+  /* Inputs */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #d3bdf0;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  /* Botões */
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #5a0080;
+  }
+  
+  /* Botão secundário (ex: voltar) */
+  .voltarLogin {
+    background-color: transparent;
+    color: #6a0dad;
+    border: 2px solid #6a0dad;
+    margin-top: 15px;
+  }
+  
+  .voltarLogin:hover {
+    background-color: #6a0dad;
+    color: white;
+  }
+  
